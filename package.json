@@ -11,7 +11,8 @@
     "express": "^4.13.3",
     "lowdb": "^1.0.0",
     "node-json-db": "^0.7.3",
-    "node-json2html": "^1.1.1"
+    "node-json2html": "^1.1.1",
+    "redis": "^2.8.0"
   },
   "engines": {
     "node": "6.10.3"

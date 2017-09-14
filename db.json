@@ -1,0 +1,32 @@
+{
+  "visits": [
+    {
+      "request_date": "2017-09-14T00:52:42.400Z",
+      "ip_address": "192.231.40.123",
+      "position": {
+        "latitude": 33.1884,
+        "longitude": -96.5858,
+        "accuracy": null
+      },
+      "continent": {
+        "name": "North America",
+        "code": "NA"
+      },
+      "country": {
+        "name": "United States",
+        "code": "US"
+      },
+      "city": {
+        "name": "McKinney",
+        "code": "75069"
+      },
+      "language": "en-US",
+      "device": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "screen_width": 1280,
+      "screen_height": 800,
+      "timezone": "America/Chicago",
+      "date_visited": "9-13-2017",
+      "time_visited": "7:52 PM"
+    }
+  ]
+}
