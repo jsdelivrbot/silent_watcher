@@ -9,10 +9,6 @@ var redis = require("redis"),
     client = redis.createClient(process.env.REDIS_URL);
 var redisdata = { "visitors" : [] };
 
-client.flushdb( function (err, succeeded) {
-    console.log(succeeded); // will be true if successfull
-});
-
 app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 app.use(bodyParser.json());
