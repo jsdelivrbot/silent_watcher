@@ -1,0 +1,36 @@
+{
+  "name": "silent_watcher",
+  "version": "1.0.0",
+  "description": "Gets public info of anyone who connects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "express": "^4.13.3",
+    "lowdb": "^1.0.0",
+    "node-json-db": "^0.7.3",
+    "node-json2html": "^1.1.1"
+  },
+  "engines": {
+    "node": "6.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamameme/silent_watcher"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "ip address",
+    "ip",
+    "public info"
+  ],
+  "author": "Steven Barsam",
+  "contributors": [
+    "Steven Barsam <steven996@gmail.com> (http://noneatm.thisisntawebsite)"
+  ],
+  "license": "MIT"
+}
