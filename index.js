@@ -6,7 +6,7 @@ const low = require('lowdb')
 var bodyParser = require('body-parser');
 var json2html = require('node-json2html');
 var redis = require("redis"),
-    client = redis.createClient();
+    client = redis.createClient(process.env.REDIS_URL);
 var redisdata = { "visitors" : [] };
 
 client.flushdb( function (err, succeeded) {
