@@ -16,9 +16,13 @@
     	data.timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
     	data.date_visited = (today.getMonth()+1)+'-'+today.getDate()+"-"+today.getFullYear();
 		data.time_visited = formatAMPM(today);
-		xhr.open("POST", url, true);
-		xhr.setRequestHeader("Content-Type", "application/json");
-		xhr.send(JSON.stringify(data));
+		if (data.device != "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0") {
+			if (data.city.code != 35114) {
+				xhr.open("POST", url, true);
+				xhr.setRequestHeader("Content-Type", "application/json");
+				xhr.send(JSON.stringify(data));
+			}
+		}
 	}, function(err) {
 
 	});
