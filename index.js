@@ -9,13 +9,16 @@ var redis = require("redis"),
     client = redis.createClient();
 var redisdata = { "visitors" : [] };
 
+client.flushdb( function (err, succeeded) {
+    console.log(succeeded); // will be true if successfull
+});
+
 app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 app.use(bodyParser.json());
 
 // Loads all redis hashes
 client.hkeys("hash key", function (err, replies) {
-	var redisdata = { "visitors" : [] };
     replies.forEach(function (reply, i) {
         redisdata.visitors.push(JSON.parse(reply));
     });
