@@ -28,7 +28,7 @@ Running Locally
 --------------
 Make sure you have node.js installed
 ```javascript
-git clone git@github.com:heroku/node-js-sample.git # or clone your own fork
+git clone git@github.com:iamameme/silent_watcher.git # or clone your own fork
 cd node-js-sample
 npm install
 npm start
