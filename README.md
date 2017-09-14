@@ -12,7 +12,8 @@ This simple nodejs project will log all of the users who visit the URL it is upl
 **Index.html is customizable.** Make it look like whatever you want. You can make it look like a completely different site if you'd like! It logs all of the information as soon as the user connects. 
 
 
-Highlights:
+
+**Highlights:**
 +	Silently logs all users who enter site
 +	Records Date/Time entered, Timezone, IP Address, Latitude, Longitude, Continent, City, ZIP Code, Language, Device Specs, Screen Height, and Screen Width
 +	Viewable Database to see logs via ./database
@@ -29,6 +30,7 @@ Make sure you have:
 +	Node.js
 +	NPM
 +	Redis
+
 Run this in a seperate terminal window:
 ```javascript
 redis-server
